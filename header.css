@@ -12,7 +12,7 @@ header.logo {
 }
 .menu ul {
   display: flex;
-  list-style: none;
+  position: fixed;
   gap: 30px;
 }
 .menu a {
@@ -23,6 +23,7 @@ header.logo {
   transition: color 0.6;
 }
 .menu a:hover {
-  color: red;
+  position: initial;
+  color: #e50914;
+  list-style: none;
 }
-

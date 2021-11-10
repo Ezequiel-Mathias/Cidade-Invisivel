@@ -22,26 +22,28 @@ header.logo {
   font-size: 20px;
   transition: color 0.6;
 }
-.dropdonw-menu > li > a:hover{
-color: #e50914;
-
+.dropdonw-menu > li > a:hover {
+  color: #e50914;
 }
 .menu a:hover {
   color: red;
 }
 .dropdpown-submenu {
+  top: 100px;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  background-color: #0006;
   position: absolute;
-  display: none;
-  list-style: none;
-  top: 60px;
-  width: 100px;
-  padding: 50px;
+  flex-direction: column;
   gap: 10px;
+  list-style: none;
+  padding-left: 0px;
+}
 
+.dropdpown-submenu li {
+  padding-left: 20px;
 }
 .dropdpown-submenu li {
-  padding-left: 10px;
-}
-.dropdpown-submenu{
-  background-color: #e50914;
+  background-color: lawngreen;
 }

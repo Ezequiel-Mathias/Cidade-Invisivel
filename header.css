@@ -12,11 +12,11 @@ header.logo {
 }
 .menu ul {
   display: flex;
-  position: fixed;
-  gap: 30px;
+  position: relative;
+  gap: 10px;
 }
 .menu a {
-  color: #fff;
+  color: rgb(255, 0, 0);
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
